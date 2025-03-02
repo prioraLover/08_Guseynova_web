@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ACBCC4;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+header {
+    background: #2C3E50;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 22px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #2C3E50;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #2C3E50;
+    color: white;
+}
+
+section {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px;
+    margin-left: 550px;
+    padding: 20px;
+    background: #ACBCC4;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.section-content {
+    margin-bottom: 20px;
+}
+
+.section-image {
+    position: absolute;
+    right: -320px;
+    top: 0;
+    width: auto;
+    height: 100%;
+    aspect-ratio: 1;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+#fun-facts .section-image {
+    background-image: url('download.gif');
+    width: 300px;
+    height: 320px;
+}
+
+#movie-review .section-image {
+    background-image: url('Wednesday.gif');
+    width: 300px;
+    height: 250px;
+}
+
+#quotes .section-image {
+    background-image: url('addams.jpg');
+    width: 300px;
+    height: 230px;
+}
+
+#schedule .section-image {
+    background-image: url('dark fairy.jpg');
+    width: 300px;
+    height: 420px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #2C3E50;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #2C3E50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+tr:hover {
+    background: #e0e0e0;
+}
